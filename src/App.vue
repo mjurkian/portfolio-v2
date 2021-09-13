@@ -1,20 +1,14 @@
 <template>
-  <MainMenu />
-  <img alt="Vue logo" src="./assets/logo.png">
-  <router-view />
+  <Menu />
 </template>
 
 <script>
-import MainMenu from './components/MainMenu'
+import Menu from './components/Menu';
 
 export default {
   name: 'App',
   components: {
-    MainMenu
+    Menu
   }
 }
 </script>
-
-<style>
-
-</style>
