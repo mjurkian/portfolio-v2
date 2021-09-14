@@ -1,14 +1,20 @@
 <template>
-  <Menu />
+  <Header />
+  <Hero />
+  <About />
 </template>
 
 <script>
-import Menu from './components/Menu';
+import Header from './components/Header'
+import Hero from  './components/Hero'
+import About from './components/About.vue'
 
 export default {
   name: 'App',
   components: {
-    Menu
+    Header,
+    Hero,
+    About
   }
 }
 </script>

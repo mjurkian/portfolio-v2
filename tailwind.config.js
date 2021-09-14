@@ -10,7 +10,7 @@ module.exports = {
       md: '768px',
       lg: '1024px',
       xl: '1280px',
-      '2xl': '1536px',
+      '2xl': '1280px',
     },
     colors: {
       transparent: 'transparent',
@@ -176,7 +176,10 @@ module.exports = {
       150: '1.5',
       200: '2',
     },
-    container: {},
+    container: {
+      center: true,
+      padding: '1rem',
+    },
     content: {
       none: 'none',
     },
