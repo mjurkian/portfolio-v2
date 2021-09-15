@@ -1,4 +1,5 @@
 const colors = require('tailwindcss/colors')
+const plugin = require('tailwindcss/plugin')
 
 module.exports = {
   purge: { content: ['./public/**/*.html', './src/**/*.vue'] },
@@ -16,6 +17,20 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
 
+      'mj-raisin': '#282A36',
+      'mj-mellow': '#FFB86C',
+      'mj-lavender': '#E9EBF8',
+      'mj-spanish': '#109648',
+      'mj-munsell': '#048BA8',
+      'mj-burgundy': '#A4303F',
+
+      'mj-php-mellow': '#CC7832',
+      'mj-php-violet': '#9876AA',
+      'mj-php-green': '#629755',
+      'mj-php-function': '#FFC66D',
+
+
+
       black: colors.black,
       white: colors.white,
       gray: colors.coolGray,
@@ -25,7 +40,7 @@ module.exports = {
       blue: colors.blue,
       indigo: colors.indigo,
       purple: colors.violet,
-      pink: colors.pink,
+      pink: colors.pink
     },
     spacing: {
       px: '1px',
@@ -732,7 +747,7 @@ module.exports = {
       none: 'none',
       all: 'all',
       DEFAULT:
-        'background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter',
+        'background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, width',
       colors: 'background-color, border-color, color, fill, stroke',
       opacity: 'opacity',
       shadow: 'box-shadow',
@@ -970,5 +985,33 @@ module.exports = {
     wordBreak: ['responsive'],
     zIndex: ['responsive', 'focus-within', 'focus'],
   },
-  plugins: [],
+  plugins: [
+    plugin(function({ addComponents }) {
+      const buttons = {
+        '.btn': {
+          padding: '0.6rem 1.5rem',
+          transitionDuration: '300ms',
+          transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
+          borderRadius: '.25rem',
+          fontWeight: '600',
+        },
+        '.btn-green': {
+          backgroundColor: '#109648',
+          color: '#E9EBF8',
+          '&:hover': {
+            backgroundColor: '#0C6F35'
+          },
+        },
+        '.btn-white': {
+          backgroundColor: '#e3342f',
+          color: '#E9EBF8',
+          '&:hover': {
+            backgroundColor: '#cc1f1a'
+          },
+        },
+      }
+
+      addComponents(buttons)
+    })
+  ],
 }
