@@ -747,7 +747,7 @@ module.exports = {
       none: 'none',
       all: 'all',
       DEFAULT:
-        'background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, width',
+        'background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, width, height',
       colors: 'background-color, border-color, color, fill, stroke',
       opacity: 'opacity',
       shadow: 'box-shadow',
@@ -1010,8 +1010,28 @@ module.exports = {
           },
         },
       }
+      const skillIcon = {
+        '.icon-skills': {
+          display: 'flex',
+          justifyContent: 'space-between',
+          flexDirection: 'column',
+          alignItems: 'center',
+          padding: '1rem',
+          borderWidth: '2px',
+          borderColor: 'rgba(107, 114, 128, var(--tw-border-opacity))',
+          borderRadius: '0.75rem',
+          width: '13.98%',
+          transitionProperty:  'border-color',
+          transitionDuration: '250ms',
+
+          '&:hover': {
+            borderColor: '#629755',
+          },
+        },
+      }
 
       addComponents(buttons)
+      addComponents(skillIcon)
     })
   ],
 }

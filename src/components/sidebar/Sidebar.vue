@@ -20,14 +20,20 @@
           </a>
         </li>
         <li>
-          <a :to="to" class="flex items-center mb-5" :class="{ active: isActive }" href="#experience">
+          <a :to="to" class="flex items-center mb-5" :class="{ active: isActive }" href="#skills">
+            <LibraryIcon class="w-7 h-7 text-mj-lavender" />
+            <span class="ml-3" v-if="!collapsed">Skills</span>
+          </a>
+        </li>
+        <li>
+          <a :to="to" class="flex items-center mb-5" :class="{ active: isActive }" href="#projects">
             <DesktopComputerIcon class="w-7 h-7 text-mj-lavender" />
-            <span class="ml-3" v-if="!collapsed">Experience</span>
+            <span class="ml-3" v-if="!collapsed">Projects</span>
           </a>
         </li>
         <li>
           <a :to="to" class="flex items-center mb-5" :class="{ active: isActive }" href="#contact">
-            <PhoneIcon class="w-7 h-7 text-mj-lavender" /> 
+            <PhoneIcon class="w-7 h-7 text-mj-lavender" />
             <span class="ml-3" v-if="!collapsed">Contact</span>
           </a>
         </li>
@@ -46,19 +52,20 @@
 
 <script>
 import { collapsed, toggleSidebar, sidebarWidth } from "@/components/sidebar/state";
-import { HomeIcon, UserIcon, DesktopComputerIcon, PhoneIcon, ArrowSmLeftIcon, MenuIcon } from '@heroicons/vue/outline'
+import { HomeIcon, UserIcon, DesktopComputerIcon, PhoneIcon, ArrowSmLeftIcon, MenuIcon, LibraryIcon } from '@heroicons/vue/outline'
 
 
 export default {
   name: "Sidebar",
   props: {},
-  components: { 
+  components: {
     HomeIcon,
     UserIcon,
     DesktopComputerIcon,
     PhoneIcon,
     ArrowSmLeftIcon,
-    MenuIcon
+    MenuIcon,
+    LibraryIcon
   },
   setup() {
     return { collapsed, toggleSidebar, sidebarWidth }
