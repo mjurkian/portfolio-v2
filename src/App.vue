@@ -1,6 +1,5 @@
 <template>
   <Sidebar />
-  <!-- <Header /> -->
   <Hero />
   <About />
   <Skills />

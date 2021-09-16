@@ -1,6 +1,6 @@
 <template>
-  <section id="skills" class="relative max-w-screen-lg mx-auto">
-    <div class="container flex flex-col-reverse items-center gap-12 lg:flex-row mt-14 lg:mt-28">
+  <section id="skills" class="relative max-w-screen-lg mx-auto pt-28">
+    <div class="container flex flex-col-reverse items-center gap-12 lg:flex-row">
       <div class="flex flex-col items-center flex-1 lg:items-start">
         <h2 class="mb-6 text-3xl text-center text-mj-php-mellow md:text-4xl lg:text-5xl lg:text-left">Skills</h2>
           <ul class="flex flex-wrap gap-x-2 md:gap-x-8 gap-y-4">
@@ -47,12 +47,11 @@
 </template>
 
 <script>
-// import HtmlSvg from '@/assets/icons/html-5.svg'
 
 export default {
   name: 'Skills',
   components: {
-    // HtmlSvg,
+    //
   }
 }
 </script>

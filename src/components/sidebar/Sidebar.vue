@@ -8,31 +8,31 @@
     <nav class="overflow-hidden">
       <ul class="gap-5">
         <li>
-          <a :to="to" class="flex items-center mb-5" :class="{ active: isActive }" href="#hero">
+          <a class="flex items-center mb-5" :class="{ active: isActive }" href="#hero">
             <HomeIcon class="w-7 h-7 text-mj-lavender" />
             <span class="ml-3" v-if="!collapsed">Home</span>
           </a>
         </li>
         <li>
-          <a :to="to" class="flex items-center mb-5" :class="{ active: isActive }" href="#about">
+          <a class="flex items-center mb-5" :class="{ active: isActive }" href="#about">
             <UserIcon class="w-7 h-7 text-mj-lavender" />
             <span class="ml-3" v-if="!collapsed">About</span>
           </a>
         </li>
         <li>
-          <a :to="to" class="flex items-center mb-5" :class="{ active: isActive }" href="#skills">
+          <a class="flex items-center mb-5" :class="{ active: isActive }" href="#skills">
             <LibraryIcon class="w-7 h-7 text-mj-lavender" />
             <span class="ml-3" v-if="!collapsed">Skills</span>
           </a>
         </li>
         <li>
-          <a :to="to" class="flex items-center mb-5" :class="{ active: isActive }" href="#projects">
+          <a class="flex items-center mb-5" :class="{ active: isActive }" href="#projects">
             <DesktopComputerIcon class="w-7 h-7 text-mj-lavender" />
             <span class="ml-3" v-if="!collapsed">Projects</span>
           </a>
         </li>
         <li>
-          <a :to="to" class="flex items-center mb-5" :class="{ active: isActive }" href="#contact">
+          <a class="flex items-center mb-5" :class="{ active: isActive }" href="#contact">
             <PhoneIcon class="w-7 h-7 text-mj-lavender" />
             <span class="ml-3" v-if="!collapsed">Contact</span>
           </a>

@@ -1,6 +1,6 @@
 <template>
-  <section id="about" class="relative max-w-screen-lg mx-auto">
-      <div class="container flex flex-col-reverse items-center gap-12 lg:flex-row mt-14 lg:mt-28">
+  <section id="about" class="relative max-w-screen-lg mx-auto pt-28">
+      <div class="container flex flex-col-reverse items-center gap-12 lg:flex-row">
         <div class="flex flex-col items-center flex-1 lg:items-start">
           <h2 class="mb-6 text-3xl text-center text-mj-php-mellow md:text-4xl lg:text-5xl lg:text-left">About Me</h2>
           <p class="mb-6 text-lg text-center text-mj-lavender lg:text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, sed ex. Odit, tempore nesciunt fugit quis odio repellendus iste totam quos! Perspiciatis consequuntur molestiae dolores, voluptatibus nulla harum modi et consectetur laborum fugit quasi necessitatibus fuga tempore ad assumenda explicabo, ipsam obcaecati repellat quod quidem tempora ea error ratione hic. Error quos fugit suscipit quasi hic deleniti doloribus dolores. Culpa doloribus accusamus officia, inventore non quam consequuntur! Obcaecati voluptate doloremque et praesentium? Ab veniam molestiae facilis minima maiores a atque?</p>
