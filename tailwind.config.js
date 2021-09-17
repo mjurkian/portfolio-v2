@@ -18,13 +18,14 @@ module.exports = {
       current: 'currentColor',
 
       'mj-raisin': '#282A36',
-      'mj-mellow': '#FFB86C',
+      'mj-raisin-light': '#2f323f',
       'mj-lavender': '#E9EBF8',
       'mj-spanish': '#109648',
       'mj-munsell': '#048BA8',
       'mj-burgundy': '#A4303F',
 
       'mj-php-mellow': '#CC7832',
+      'mj-php-mellow-light': '#cb9c80',
       'mj-php-violet': '#9876AA',
       'mj-php-green': '#629755',
       'mj-php-function': '#FFC66D',
@@ -994,6 +995,7 @@ module.exports = {
           transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
           borderRadius: '.25rem',
           fontWeight: '600',
+          borderWidth: '2px',
         },
         '.btn-green': {
           backgroundColor: '#109648',
@@ -1002,11 +1004,12 @@ module.exports = {
             backgroundColor: '#0C6F35'
           },
         },
-        '.btn-white': {
-          backgroundColor: '#e3342f',
-          color: '#E9EBF8',
+        '.btn-mellow': {
+          // backgroundColor: '#e3342f',
+          borderColor: 'rgba(204, 120, 50, var(--tw-bg-opacity))',
+          color: 'rgba(204, 120, 50, var(--tw-bg-opacity))',
           '&:hover': {
-            backgroundColor: '#cc1f1a'
+            backgroundColor: 'rgba(203, 156, 128, 0.1)',
           },
         },
       }
