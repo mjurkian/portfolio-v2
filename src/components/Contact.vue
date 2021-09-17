@@ -13,7 +13,7 @@
           inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to
           you!</p>
 
-        <a class="btn btn-green m-auto" href="mailto:michaljurkian@gmail.com">Email</a>
+        <a class="btn btn-mellow m-auto" href="mailto:michaljurkian@gmail.com">Email</a>
 
       </div>
     </div>
