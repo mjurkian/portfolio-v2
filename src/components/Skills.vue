@@ -1,5 +1,5 @@
 <template>
-  <section id="skills" class="relative max-w-screen-lg mx-auto pt-28">
+  <section id="skills" class="relative max-w-screen-lg mx-auto pt-28 mb-40">
     <div class="container flex flex-col-reverse items-center gap-12 lg:flex-row">
       <div class="flex flex-col items-center flex-1 lg:items-start">
         <div class="-ml-3 pl-3 pt-3 border-l-2 border-mj-php-mellow mb-8 rounded">

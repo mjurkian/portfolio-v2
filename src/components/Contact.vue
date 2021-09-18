@@ -1,6 +1,6 @@
 <template>
-  <section id="contact" class="relative max-w-screen-lg mx-auto">
-    <div class="container flex flex-col-reverse items-center gap-12 lg:flex-row mt-14 lg:mt-28">
+  <section id="contact" class="relative max-w-screen-lg mx-auto ">
+    <div class="container flex flex-col-reverse items-center gap-12 lg:flex-row pt-28">
       <div class="flex flex-col items-center flex-1 lg:items-start mb-40">
         <div class="-ml-3 pl-3 pt-3 border-l-2 border-mj-php-mellow mb-8 rounded">
           <p class="text-mj-php-mellow text-xs mb-2 uppercase">Say hello</p>
@@ -17,7 +17,6 @@
 
       </div>
     </div>
-    <a href=""></a>
   </section>
 </template>
 

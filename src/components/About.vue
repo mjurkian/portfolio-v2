@@ -1,5 +1,5 @@
 <template>
-  <section id="about" class="relative max-w-screen-lg mx-auto pt-28">
+  <section id="about" class="relative max-w-screen-lg mx-auto pt-28 mb-40">
     <div class="container flex flex-col-reverse items-center gap-12 lg:flex-row">
       <div class="flex flex-col items-center flex-1 lg:items-start">
         <div class="-ml-3 pl-3 pt-3 border-l-2 border-mj-php-mellow mb-8 rounded">
@@ -19,7 +19,7 @@
           perferendis excepturi ad odio illum quas fuga ut, voluptate error temporibus nam atque adipisci? Unde, quod
           nesciunt quidem dolor impedit laborum iste quibusdam quae sapiente labore, dignissimos provident aut
           dolore.</p>
-        <div class="flex flex-wrap justify-center gap-6 mb-40">
+        <div class="flex flex-wrap justify-center gap-6">
           <button class="btn btn-mellow">Resume</button>
         </div>
       </div>
