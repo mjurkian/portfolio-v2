@@ -19,6 +19,7 @@ module.exports = {
 
       'mj-raisin': '#282A36',
       'mj-raisin-light': '#2f323f',
+      'mj-raisin-dark': '#1a1b25',
       'mj-lavender': '#E9EBF8',
       'mj-spanish': '#109648',
       'mj-munsell': '#048BA8',

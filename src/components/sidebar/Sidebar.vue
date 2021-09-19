@@ -2,56 +2,51 @@
   <div class="absolute top-0 right-0 opacity-5">
     <img src="../../assets/code2.png" height="666" width="1000" alt="Code Background"/>
   </div>
-  <div @mouseover="sidebarOpen" @mouseleave="sidebarClose" :class="{ 'hidden': isMobile() }" :style="{ width: sidebarWidth }"
-       class="fixed top-0 bottom-0 left-0 z-10 p-2 transition text-mj-lavender bg-mj-burgundy">
-    <h2 class="mb-10 text-center">
-      <span v-if="!menuOpen">mj</span>
-      <span v-else class="text-5xl text-center">-mj-</span>
+  <div @mouseover="sidebarOpen" @mouseleave="sidebarClose" :class="test" :style="{ width: sidebarWidth }"
+       class="fixed top-0 bottom-0 left-0 z-10 transition duration-500 text-mj-lavender bg-mj-raisin-dark overflow-x-hidden border-r-2 border-mj-php-mellow">
+    <h2 class="text-center">
+      <span v-if="!menuOpen" class="mb-14 block">mj</span>
+      <span v-else class="text-5xl text-center mb-8 block">-mj-</span>
     </h2>
 
-    <nav class="overflow-hidden">
+    <nav class="absolute top-24 left-0">
       <ul class="gap-5">
         <li>
-          <a :class="{ active: isActive }" class="flex items-center mb-5" href="#hero">
+          <a @click="sidebarClose" class="flex items-center border-2 p-2 mx-2 my-4 rounded-md border-mj-raisin-dark hover:border-mj-php-mellow transition-all" href="#hero">
             <HomeIcon class="w-7 h-7 text-mj-lavender"/>
             <span v-if="menuOpen" class="ml-3">Home</span>
           </a>
         </li>
         <li>
-          <a :class="{ active: isActive }" class="flex items-center mb-5" href="#about">
+          <a @click="sidebarClose" class="flex items-center border-2 p-2 mx-2 my-4 rounded-md border-mj-raisin-dark hover:border-mj-php-mellow transition-all" href="#about">
             <UserIcon class="w-7 h-7 text-mj-lavender"/>
             <span v-if="menuOpen" class="ml-3">About</span>
           </a>
         </li>
         <li>
-          <a :class="{ active: isActive }" class="flex items-center mb-5" href="#skills">
+          <a @click="sidebarClose" class="flex items-center border-2 p-2 mx-2 my-4 rounded-md border-mj-raisin-dark hover:border-mj-php-mellow transition-all" href="#skills">
             <LibraryIcon class="w-7 h-7 text-mj-lavender"/>
             <span v-if="menuOpen" class="ml-3">Skills</span>
           </a>
         </li>
         <li>
-          <a :class="{ active: isActive }" class="flex items-center mb-5" href="#projects">
+          <a @click="sidebarClose" class="flex items-center border-2 p-2 mx-2 my-4 rounded-md border-mj-raisin-dark hover:border-mj-php-mellow transition-all" href="#projects">
             <DesktopComputerIcon class="w-7 h-7 text-mj-lavender"/>
             <span v-if="menuOpen" class="ml-3">Projects</span>
           </a>
         </li>
         <li>
-          <a :class="{ active: isActive }" class="flex items-center mb-5" href="#contact">
+          <a @click="sidebarClose" class="flex items-center border-2 p-2 mx-2 my-4 rounded-md border-mj-raisin-dark hover:border-mj-php-mellow transition-all" href="#contact">
             <PhoneIcon class="w-7 h-7 text-mj-lavender"/>
             <span v-if="menuOpen" class="ml-3">Contact</span>
           </a>
         </li>
       </ul>
     </nav>
-
-    <span @click="toggleSidebar">
-      <ArrowSmLeftIcon :class="{ 'rotate-180': collapsed }"
-                       class="absolute w-8 h-8 transition duration-300 transform right-1 bottom-4 text-mj-lavender"/>
-    </span>
   </div>
 
-  <div class="absolute top-5 right-5 md:hidden">
-    <MenuIcon class="w-8 h-8 cursor-pointer text-mj-burgundy" @click="toggle"/>
+  <div class="absolute top-5 right-5 md:hidden z-10">
+    <MenuIcon class="w-8 h-8 cursor-pointer text-mj-burgundy" @click="sidebarOpen"/>
   </div>
 
   <ul class="fixed top-1/2 right-4 flex justify-center flex-col items-center gap-4 transform -translate-y-1/2">
@@ -65,7 +60,6 @@
 
 <script>
 import {
-  ArrowSmLeftIcon,
   DesktopComputerIcon,
   HomeIcon,
   LibraryIcon,
@@ -83,21 +77,22 @@ export default {
     UserIcon,
     DesktopComputerIcon,
     PhoneIcon,
-    ArrowSmLeftIcon,
     MenuIcon,
     LibraryIcon
   },
   data() {
     return {
       menuOpen: false,
-      sidebarWidth: '38px'
+      sidebarWidth: '',
+      mobile: true
     }
   },
   created() {
     if (this.isMobile()) {
       this.sidebarWidth = 0
     } else {
-      this.sidebarWidth = '38px'
+      this.sidebarWidth = '68px'
+      this.mobile = false
     }
   },
   methods: {
@@ -107,17 +102,17 @@ export default {
 
     sidebarOpen() {
       this.menuOpen = true
-      this.sidebarWidth = '180px'
-
-      if (this.isMobile()) {
-        console.log('true')
-      } else {
-        console.log('not true')
-      }
+      this.sidebarWidth = '160px'
     },
+
     sidebarClose() {
       this.menuOpen = false
-      this.sidebarWidth = '38px'
+
+      if (this.isMobile()) {
+        this.sidebarWidth = '0'
+      } else {
+        this.sidebarWidth = '68px'
+      }
     }
   }
 }
