@@ -40,6 +40,10 @@
             <span class="text-sm">PHP</span>
           </li>
           <li class="icon-skills">
+            <img alt="Webpack Icon" src="../assets/icons/webpack.svg">
+            <span class="text-sm">Webpack</span>
+          </li>
+          <li class="icon-skills">
             <img alt="Git Icon" src="../assets/icons/git.svg">
             <span class="text-sm">Git</span>
           </li>

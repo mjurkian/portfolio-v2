@@ -1029,7 +1029,7 @@ module.exports = {
           transitionDuration: '250ms',
 
           '@media (min-width: 768px)': {
-            width: '13.98%',
+            width: '13.96%',
           },
           '&:hover': {
             borderColor: '#629755',
