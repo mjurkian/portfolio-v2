@@ -10,7 +10,7 @@ module.exports = {
       sm: '640px',
       md: '768px',
       lg: '1024px',
-      xl: '1280px',
+      xl: '1155px',
       '2xl': '1280px',
     },
     colors: {
@@ -1024,10 +1024,13 @@ module.exports = {
           borderWidth: '2px',
           borderColor: 'rgba(107, 114, 128, var(--tw-border-opacity))',
           borderRadius: '0.75rem',
-          width: '13.98%',
+          width: '107px',
           transitionProperty:  'border-color',
           transitionDuration: '250ms',
 
+          '@media (min-width: 768px)': {
+            width: '13.98%',
+          },
           '&:hover': {
             borderColor: '#629755',
           },

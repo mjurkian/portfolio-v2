@@ -1,10 +1,10 @@
 <template>
-  <section id="projects" class="relative max-w-screen-lg mx-auto pt-28 mb-40">
+  <section id="projects" class="relative max-w-screen-lg mx-auto pt-28 lg:mb-40">
     <div class="container flex flex-col-reverse items-center gap-12 lg:flex-row">
-      <div class="flex flex-col items-center flex-1 lg:items-start">
-        <div class="-ml-3 pl-3 pt-3 border-l-2 border-mj-php-mellow mb-8 rounded">
+      <div class="flex flex-col flex-1">
+        <div class="lg:-ml-3 pl-3 pt-3 border-l-2 border-mj-php-mellow mb-8 rounded">
           <p class="text-mj-php-mellow text-xs mb-2">TAKE A LOOK AT MY</p>
-          <h2 class="pb-3 text-3xl text-center text-mj-php-mellow md:text-4xl lg:text-left">Projects</h2>
+          <h2 class="pb-3 text-3xl text-mj-php-mellow md:text-4xl">Projects</h2>
         </div>
 
 <!--        Arvalet -->
@@ -80,7 +80,7 @@
         </div>
 
 <!--        Sainsbury -->
-        <div class="relative flex flex-col-reverse lg:flex-row-reverse w-full mb-14">
+        <div class="relative flex flex-col-reverse lg:flex-row-reverse w-full">
           <div>
             <a href="https://arvalet.com/" target="_blank"><img class="transition duration-200 opacity-60 hover:opacity-80 shadow-md" src="../assets/arvalet.png" alt="Arvalet Project"></a>
           </div>
