@@ -2,11 +2,12 @@
   <div class="absolute top-0 right-0 opacity-5">
     <img src="../../assets/code2.png" height="666" width="1000" alt="Code Background"/>
   </div>
-  <div @mouseover="sidebarOpen" @mouseleave="sidebarClose" :class="test" :style="{ width: sidebarWidth }"
+  <div @mouseover="sidebarOpen" @mouseleave="sidebarClose" :style="{ width: sidebarWidth }"
        class="fixed top-0 bottom-0 left-0 z-50 transition duration-500 text-mj-lavender bg-mj-raisin-dark overflow-x-hidden border-r-2 border-mj-php-mellow transform -translate-x-1 xl:translate-x-0">
     <h2 class="text-center">
-      <span v-if="!menuOpen" class="mb-14 block">mj</span>
-      <span v-else class="text-5xl text-center mb-8 block">-mj-</span>
+      <img src="../../assets/logo.png" alt="MJ Logo" class="m-auto p-2 max-h-24">
+<!--      <span v-if="!menuOpen" class="mb-14 block">mj</span>-->
+<!--      <span v-else class="text-5xl text-center mb-8 block">-mj-</span>-->
     </h2>
 
     <nav class="absolute top-24 left-0">
