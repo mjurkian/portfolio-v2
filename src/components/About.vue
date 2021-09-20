@@ -7,7 +7,7 @@
           <h2 class="pb-3 text-3xl text-mj-php-mellow md:text-4xl">About Me</h2>
         </div>
 
-        <p class="mb-6 text-2xl text-mj-lavender">I'm a web developer leaving and working near Calgary, Alberta. I'm specializing in custom <span class="text-mj-php-mellow">Wordpress/Shopify</span> development. Focusing on writing clean and efficient code and creating a user friendly experience. Exploring other technologies and frameworks is my passion.</p>
+        <p class="mb-6 text-xl text-mj-lavender">I'm a web developer leaving and working near Calgary, Alberta. I'm specializing in custom <span class="text-mj-php-mellow">Wordpress/Shopify</span> development. Focusing on writing clean and efficient code and creating a user friendly experience. Exploring other technologies and frameworks is my passion.</p>
 
         <div class="flex flex-wrap gap-6">
           <button class="btn btn-mellow mr-6">Resume</button>

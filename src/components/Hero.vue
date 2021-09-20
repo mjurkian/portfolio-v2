@@ -6,7 +6,7 @@
       </div>
       <div class="flex flex-1 flex-col items-center lg:items-start">
         <h1 class="mb-8 text-4xl md:text-6xl text-mj-php-mellow">Hi, I'm Michal</h1>
-        <p class="text-mj-lavender text-lg">A Web Developer passionate about creating interactive applications and experiences on the web.</p>
+        <p class="text-mj-lavender text-xl">A Web Developer passionate about creating interactive applications and experiences on the web.</p>
       </div>
     </div>
   </section>
