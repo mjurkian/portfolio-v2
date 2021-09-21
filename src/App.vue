@@ -1,10 +1,17 @@
 <template>
-  <Sidebar/>
-  <Hero/>
-  <About/>
-  <Skills/>
-  <Projects/>
-  <Contact/>
+  <header>
+    <Hero/>
+  </header>
+  <main>
+    <Sidebar/>
+    <About/>
+    <Skills/>
+    <Projects/>
+    <Contact/>
+  </main>
+  <footer>
+    <Footer />
+  </footer>
 </template>
 
 <script>
@@ -14,6 +21,7 @@ import About from '@/components/About.vue'
 import Skills from "@/components/Skills"
 import Projects from "@/components/Projects"
 import Contact from "@/components/Contact"
+import Footer from "@/components/Footer"
 
 export default {
   name: 'App',
@@ -23,7 +31,8 @@ export default {
     About,
     Skills,
     Projects,
-    Contact
+    Contact,
+    Footer
   }
 }
 </script>
