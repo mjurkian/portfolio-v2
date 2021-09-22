@@ -10,7 +10,7 @@
     <Contact/>
   </main>
   <footer>
-    <Footer />
+    <Footer/>
   </footer>
 </template>
 

@@ -7,9 +7,7 @@
           <h2 class="pb-3 text-3xl text-mj-php-mellow md:text-4xl lg:text-left">Contact</h2>
         </div>
         <h3 class="m-auto text-3xl text-mj-lavender mb-6 text-mj-php-mellow">Get In Touch</h3>
-        <p class="mb-6 text-lg text-mj-lavender lg:w-1/2 text-center m-auto mb-10">I’m looking for new opportunities, my
-          inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to
-          you!</p>
+        <p class="mb-6 text-lg text-mj-lavender lg:w-1/2 text-center m-auto mb-10">I’m looking for new opportunities, drop me a message if you have any question and I will be happy to answer. My inbox is always open</p>
         <a class="btn btn-mellow m-auto" href="mailto:michaljurkian@gmail.com">Email</a>
       </div>
     </div>

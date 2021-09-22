@@ -5,8 +5,8 @@
         <img alt="" class="w-5/6 h-5/6 sm:3/4 rounded-3xl shadow-2xl" src="../assets/cat-min.jpg">
       </div>
       <div class="flex flex-1 flex-col items-center lg:items-start">
-        <h1 class="mb-8 text-4xl md:text-6xl text-mj-php-mellow">Hi, I'm Michal</h1>
-        <p class="text-mj-lavender text-xl">A Web Developer passionate about creating interactive applications and experiences on the web.</p>
+        <h1 class="mb-8 text-4xl md:text-7xl text-mj-php-mellow">Hi, I'm Michal</h1>
+        <p class="text-mj-lavender text-2xl">a Husband, a Father, a Web Developer.</p>
       </div>
     </div>
   </section>

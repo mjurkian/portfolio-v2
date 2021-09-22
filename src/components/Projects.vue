@@ -15,7 +15,7 @@
           <div class="lg:absolute right-0 top-10 lg:w-1/2 lg:text-right">
             <h3 class="text-2xl mb-4 text-mj-php-mellow">Virgin Media Careers</h3>
             <div class="bg-mj-raisin-light p-4 rounded mb-4 shadow-md">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores, <span class="text-mj-php-mellow">aspernatur commodi</span> cumque distinctio esse expedita incidunt ipsa iure modi</p>
+              <p>Custom website fully dedicated to finding new opportunities with Virgin Media United Kingdom. <span class="text-mj-php-mellow">WordPress</span> theme with funnelback integration. </p>
             </div>
             <ul class="flex lg:flex-row-reverse gap-x-5 font-mono text-sm mb-3 lg:pl-28 flex-wrap gap-y-2">
               <li>Webpack</li>
@@ -41,7 +41,7 @@
           <div class="lg:absolute left-0 top-10 lg:w-1/2 lg:text-left">
             <h3 class="text-2xl mb-4 text-mj-php-mellow">Sainsbury's Jobs</h3>
             <div class="bg-mj-raisin-light p-4 rounded mb-4 shadow-md">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores, <span class="text-mj-php-mellow">aspernatur commodi</span> cumque distinctio esse expedita incidunt ipsa iure modi</p>
+              <p>Sainsbury's UK be inspired and find your next career step. Tailored <span class="text-mj-php-mellow">WordPress</span> theme, a friendly design with easy to navigate layout.</p>
             </div>
             <ul class="flex lg:flex-row gap-x-5 font-mono text-sm mb-3 lg:pr-28 flex-wrap gap-y-2">
               <li>HTML</li>
@@ -67,7 +67,7 @@
           <div class="lg:absolute right-0 top-10 lg:w-1/2 lg:text-right">
             <h3 class="text-2xl mb-4 text-mj-php-mellow">Appliance People</h3>
             <div class="bg-mj-raisin-light p-4 rounded mb-4 shadow-md">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores, <span class="text-mj-php-mellow">aspernatur commodi</span> cumque distinctio esse expedita incidunt ipsa iure modi</p>
+              <p>Custom <span class="text-mj-php-mellow">Shopify</span> theme for Appliance People. Built in mind to easily navigate through a few thousand products and create an enjoyable online shopping experience.</p>
             </div>
             <ul class="flex lg:flex-row-reverse gap-x-5 font-mono text-sm mb-3 lg:pl-28 flex-wrap gap-y-2">
               <li>VueJS</li>
@@ -93,7 +93,7 @@
           <div class="lg:absolute left-0 top-10 lg:w-1/2 lg:text-left">
             <h3 class="text-2xl mb-4 text-mj-php-mellow">Tallents Solicitors</h3>
             <div class="bg-mj-raisin-light p-4 rounded mb-4 shadow-md">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores, <span class="text-mj-php-mellow">aspernatur commodi</span> cumque distinctio esse expedita incidunt ipsa iure modi</p>
+              <p>Full range of private and business legal services on this <span class="text-mj-php-mellow">WordPress</span> built from scratch website.</p>
             </div>
             <ul class="flex lg:flex-row gap-x-5 font-mono text-sm mb-3 lg:pr-28 flex-wrap gap-y-2">
               <li>HTML</li>
@@ -119,7 +119,7 @@
           <div class="lg:absolute right-0 top-10 lg:w-1/2 lg:text-right">
             <h3 class="text-2xl mb-4 text-mj-php-mellow">Arvalet Auto Center</h3>
             <div class="bg-mj-raisin-light p-4 rounded mb-4 shadow-md">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores, <span class="text-mj-php-mellow">aspernatur commodi</span> cumque distinctio esse expedita incidunt ipsa iure modi</p>
+              <p>Designed and created for exceptional digital experiences when looking for all your car needs. <span class="text-mj-php-mellow">WordPress</span> Theme built with easy to use ACF Blocks.</p>
             </div>
             <ul class="flex lg:flex-row-reverse gap-x-5 font-mono text-sm mb-3 lg:pl-28 flex-wrap gap-y-2">
               <li>Webpack</li>
