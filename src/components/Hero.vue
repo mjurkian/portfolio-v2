@@ -6,7 +6,7 @@
       </div>
       <div class="flex flex-1 flex-col items-center lg:items-start">
         <h1 class="mb-8 text-4xl md:text-7xl text-mj-php-mellow">Hi, I'm Michal</h1>
-        <p class="text-mj-lavender text-2xl">a Husband, a Father, a Web Developer.</p>
+        <p class="text-mj-lavender text-2xl text-center lg:text-left">a Husband, a Father, a Web Developer.</p>
       </div>
     </div>
 
