@@ -8,6 +8,22 @@
         </div>
         <ul class="flex flex-wrap gap-x-2 md:gap-x-8 gap-y-4">
           <li class="icon-skills">
+            <img alt="JavaScript Icon" src="../assets/icons/javascript.svg">
+            <span class="text-sm">JavaScript</span>
+          </li>
+          <li class="icon-skills">
+            <img alt="VueJS Icon" src="../assets/icons/react.svg">
+            <span class="text-sm">ReactJs</span>
+          </li>
+          <li class="icon-skills">
+            <img alt="VueJS Icon" src="../assets/icons/vue-js.svg">
+            <span class="text-sm">VueJS</span>
+          </li>
+          <li class="icon-skills">
+            <img alt="PHP Icon" src="../assets/icons/php-logo.svg">
+            <span class="text-sm">PHP</span>
+          </li>
+          <li class="icon-skills">
             <img alt="HTML Icon" src="../assets/icons/html-5.svg">
             <span class="text-sm">HTML</span>
           </li>
@@ -26,18 +42,6 @@
           <li class="icon-skills">
             <img alt="Bootstrap Icon" src="../assets/icons/bootstrap-5-1.svg">
             <span class="text-sm">Bootstrap</span>
-          </li>
-          <li class="icon-skills">
-            <img alt="JavaScript Icon" src="../assets/icons/javascript.svg">
-            <span class="text-sm">JavaScript</span>
-          </li>
-          <li class="icon-skills">
-            <img alt="VueJS Icon" src="../assets/icons/vue-js.svg">
-            <span class="text-sm">VueJS</span>
-          </li>
-          <li class="icon-skills">
-            <img alt="PHP Icon" src="../assets/icons/php-logo.svg">
-            <span class="text-sm">PHP</span>
           </li>
           <li class="icon-skills">
             <img alt="Webpack Icon" src="../assets/icons/webpack.svg">
